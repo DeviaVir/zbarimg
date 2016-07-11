@@ -1,8 +1,6 @@
-# [Deprecated] zbarimg
+# zbarimg
 
 Scan photos using `zbarimg` in node.js. This module is a wrapper around the `zbarimg` command from [ZBar bar code reader](http://zbar.sourceforge.net).
-
-The module has only been tested with QR-Codes!
 
 ## Installation
 
@@ -14,11 +12,12 @@ The module has only been tested with QR-Codes!
 	
 ## Usage
 
-```coffee
-zbarimg = require 'zbarimg'
+```js
+var zbarimg = require('zbarimg')
 
-zbarimg 'photo.png', (err, code) ->
+zbarimg('photo.png', function(err, code) {
 
-	console.log code
+	console.log(code)
+})
 ```
 

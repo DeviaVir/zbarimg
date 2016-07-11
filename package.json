@@ -1,15 +1,13 @@
 {
-  "name": "zbarimg",
-  "version": "1.1.1",
+  "name": "node-zbarimg",
+  "version": "1.0.0",
   "description": "Scan photos using ZBar in node",
   "main": "index.js",
   "scripts": {
-    "compile": "./node_modules/.bin/coffee -c ./index.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "scan",
-    "qr",
     "image",
     "photo",
     "detect",
@@ -19,14 +17,11 @@
     "bar"
   ],
   "authors": [
-    "Tobias Reich <tobias.reich.ich@gmail.com>"
+    "Chase Sillevis <chase@sillevis.net>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/electerious/zbarimg.git"
+    "url": "https://github.com/deviavir/zbarimg.git"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "coffee-script": "^1.10.0"
-  }
+  "license": "MIT"
 }
