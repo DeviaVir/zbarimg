@@ -4,7 +4,7 @@ Scan photos using `zbarimg` in node.js. This module is a wrapper around the `zba
 
 ## Installation
 
-	npm install zbarimg
+	npm install node-zbarimg
 	
 ## Requirements
 
@@ -13,7 +13,7 @@ Scan photos using `zbarimg` in node.js. This module is a wrapper around the `zba
 ## Usage
 
 ```js
-var zbarimg = require('zbarimg')
+var zbarimg = require('node-zbarimg')
 
 zbarimg('photo.png', function(err, code) {
 
